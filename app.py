@@ -13,7 +13,7 @@ st.header('Texto')
 
 def user_input_features():
   # Entrada
-  texto = st.text_input("Introduce el texto a evaluar")
+  texto = st.text_input("Enter the text to be evaluated.")
 
   user_input_data = {'Text': texto}
 
