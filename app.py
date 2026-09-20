@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 
-st.write(''' # Predicción de categoría de Premio Nobel ''')
+st.write(''' # Nobel Prize Category Prediction ''')
 st.image("alfred.jfif", caption="Su creador fue el inventor sueco Alfred Nobel mediante su testamento en 1895.")
 
 st.header('Texto')
